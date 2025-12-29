@@ -108,7 +108,7 @@ def load_metadata():
 def read_all_csv_files(base_path):
     """Read all CSV files and return users list"""
     users = []
-    csv_files = glob.glob(os.path.join(base_path, 'github-certs-*.csv'))
+    csv_files = glob.glob(os.path.join(base_path, 'datasource', 'github-certs-*.csv'))
     metadata = load_metadata()
     
     print(f"📂 Processing {len(csv_files)} CSV files...")

@@ -17,6 +17,7 @@ from generate_rankings import CONTINENT_MAP
 
 METADATA_FILE = 'csv_metadata.json'
 IGNORED_COUNTRIES = ['India']  # Temporarily ignore these countries
+DATASOURCE_DIR = 'datasource'
 
 def get_all_countries():
     """Extract unique countries from CONTINENT_MAP"""
@@ -43,7 +44,7 @@ def save_metadata(metadata):
 def get_csv_filename(country):
     """Get CSV filename for a country"""
     file_suffix = country.lower().replace(' ', '-')
-    return f'github-certs-{file_suffix}.csv'
+    return f'{DATASOURCE_DIR}/github-certs-{file_suffix}.csv'
 
 def fetch_country_data(country, metadata):
     """Fetch data for a single country using cert-github.sh"""
@@ -83,6 +84,9 @@ def main():
     print("GitHub Certifications Data Fetcher")
     print("=" * 80)
     print()
+    
+    # Create datasource directory if it doesn't exist
+    os.makedirs(DATASOURCE_DIR, exist_ok=True)
     
     # Load existing metadata
     metadata = load_metadata()

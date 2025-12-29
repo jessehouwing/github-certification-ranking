@@ -1,3 +1,11 @@
-# CSV data files - regenerated on each workflow run
-*.csv
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
 
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

@@ -28,6 +28,7 @@ jobs:
       - name: Fetch certification data
         timeout-minutes: 60  # Limit data fetching to 60 minutes
         run: |
+          mkdir -p datasource
           chmod +x cert-github.sh
           chmod +x fetch_data.py
           python3 fetch_data.py
@@ -41,8 +42,8 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Add markdown files, CSV files, and metadata
-          git add TOP10_*.md README.md github-certs-*.csv csv_metadata.json
+          # Add markdown files, CSV files in datasource, and metadata
+          git add TOP10_*.md README.md datasource/*.csv csv_metadata.json
           
           if git diff --staged --quiet; then
             echo "No changes to commit"

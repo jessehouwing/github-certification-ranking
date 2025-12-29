@@ -43,9 +43,12 @@ COUNTRY_URL=$(echo "$COUNTRY_NAME" | sed 's/ /%20/g')
 # Construir URL base
 BASE_URL="https://www.credly.com/api/v1/directory?organization_id=63074953-290b-4dce-86ce-ea04b4187219&sort=alphabetical&filter%5Blocation_name%5D=${COUNTRY_URL}&page="
 
+# Create datasource directory if it doesn't exist
+mkdir -p datasource
+
 # Nome do arquivo (substituir espaços por hífen e converter para minúsculas)
 FILE_SUFFIX=$(echo "$COUNTRY_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
-OUTPUT_FILE="github-certs-${FILE_SUFFIX}.csv"
+OUTPUT_FILE="datasource/github-certs-${FILE_SUFFIX}.csv"
 
 # Escrever cabeçalho no arquivo CSV
 echo "first_name,middle_name,last_name,badge_count" > "$OUTPUT_FILE"
