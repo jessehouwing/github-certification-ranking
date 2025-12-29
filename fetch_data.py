@@ -19,7 +19,14 @@ METADATA_FILE = 'csv_metadata.json'
 DATASOURCE_DIR = 'datasource'
 
 def get_ignored_countries():
-    """Get list of countries to ignore based on date"""
+    """Get list of countries to ignore based on date or manual trigger"""
+    # Check if India should be included via manual trigger
+    include_india = os.environ.get('INCLUDE_INDIA', 'false').lower() == 'true'
+    
+    if include_india:
+        # Manual trigger with include_india=true - run India
+        return []
+    
     # India only runs on the 1st of each month (too large for daily runs)
     current_day = datetime.now().day
     if current_day != 1:
@@ -55,16 +62,39 @@ def get_csv_filename(country):
     return f'{DATASOURCE_DIR}/github-certs-{file_suffix}.csv'
 
 def fetch_country_data(country, metadata):
-    """Fetch data for a single country using cert-github.sh"""
-    # Very large countries need much more time (India can have 20k+ users = 2500+ pages)
+    """Fetch data for a single country using cert-github.sh or parallel script"""
+    csv_file = get_csv_filename(country)
+    
+    # Use parallel script for India (much faster)
     if country == 'India':
-        timeout = 36000  # 10 hours for India
-    elif country in ['Brazil', 'United States', 'China', 'Germany', 'United Kingdom', 'France', 'Canada', 'Japan']:
+        timeout = 7200  # 2 hours for India with parallel requests
+        try:
+            result = subprocess.run(
+                ['python3', 'fetch_large_country.py', country],
+                timeout=timeout,
+                capture_output=True,
+                text=True
+            )
+            
+            if result.returncode == 0:
+                metadata[country] = {
+                    'csv_file': csv_file,
+                    'last_updated': datetime.now().isoformat(),
+                    'status': 'success'
+                }
+                return (country, 'success', None)
+            else:
+                return (country, 'failed', f"Exit code: {result.returncode}")
+        except subprocess.TimeoutExpired:
+            return (country, 'failed', f'Timeout ({timeout}s)')
+        except Exception as e:
+            return (country, 'failed', str(e))
+    
+    # Regular countries use bash script
+    if country in ['Brazil', 'United States', 'China', 'Germany', 'United Kingdom', 'France', 'Canada', 'Japan']:
         timeout = 900  # 15 minutes for other large countries
     else:
         timeout = 300  # 5 minutes for regular countries
-    
-    csv_file = get_csv_filename(country)
     
     try:
         result = subprocess.run(
