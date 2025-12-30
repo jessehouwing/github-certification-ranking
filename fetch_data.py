@@ -19,18 +19,9 @@ METADATA_FILE = 'csv_metadata.json'
 DATASOURCE_DIR = 'datasource'
 
 def get_ignored_countries():
-    """Get list of countries to ignore based on date or manual trigger"""
-    # Check if India should be included via manual trigger
-    include_india = os.environ.get('INCLUDE_INDIA', 'false').lower() == 'true'
-    
-    if include_india:
-        # Manual trigger with include_india=true - run India
-        return []
-    
-    # India only runs on the 1st of each month (too large for daily runs)
-    current_day = datetime.now().day
-    if current_day != 1:
-        return ['India']
+    """Get list of countries to ignore based on manual trigger"""
+    # With parallel script, India is fast enough to run daily (~2 minutes)
+    # Only skip if explicitly disabled
     return []
 
 def get_all_countries():
@@ -65,9 +56,11 @@ def fetch_country_data(country, metadata):
     """Fetch data for a single country using cert-github.sh or parallel script"""
     csv_file = get_csv_filename(country)
     
-    # Use parallel script for India (much faster)
-    if country == 'India':
-        timeout = 36000  # 10 hours for India (safe margin for very large datasets)
+    # Use parallel script for large countries (>100 pages = ~800 users)
+    large_countries = ['India', 'United States', 'Brazil', 'United Kingdom']
+    
+    if country in large_countries:
+        timeout = 1800  # 30 minutes for large countries
         try:
             result = subprocess.run(
                 ['python3', 'fetch_large_country.py', country],
@@ -91,10 +84,7 @@ def fetch_country_data(country, metadata):
             return (country, 'failed', str(e))
     
     # Regular countries use bash script
-    if country in ['Brazil', 'United States', 'China', 'Germany', 'United Kingdom', 'France', 'Canada', 'Japan']:
-        timeout = 900  # 15 minutes for other large countries
-    else:
-        timeout = 300  # 5 minutes for regular countries
+    timeout = 300  # 5 minutes for all regular countries
     
     try:
         result = subprocess.run(

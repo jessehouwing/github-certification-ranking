@@ -6,12 +6,6 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
     # Allow manual trigger
-    inputs:
-      include_india:
-        description: 'Include India in this run (takes ~2 hours)'
-        required: false
-        type: boolean
-        default: false
 
 jobs:
   generate-rankings:
@@ -36,8 +30,6 @@ jobs:
       
       - name: Fetch certification data
         timeout-minutes: 700  # Limit data fetching to ~11.5 hours
-        env:
-          INCLUDE_INDIA: ${{ github.event.inputs.include_india || 'false' }}
         run: |
           mkdir -p datasource
           chmod +x cert-github.sh
