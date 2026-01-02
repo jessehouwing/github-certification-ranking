@@ -1,6 +1,6 @@
 # 🌏 TOP 10 GitHub Certifications - Asia
 
-> Last updated: January 02, 2026 at 01:43 UTC
+> Last updated: January 02, 2026 at 14:02 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -10,8 +10,8 @@
 | 🥈 #2 | Ramesh Kumar Dasari | 9 | India |
 | 🥉 #3 | Niranjana K | 7 | India |
 |    #4 | Rajesh C N | 6 | India |
-|    #5 | NIKHIL GOWDA N | 6 | India |
-|    #6 | Hoysala Garudanagiri | 6 | India |
+|    #5 | Hoysala Garudanagiri | 6 | India |
+|    #6 | NIKHIL GOWDA N | 6 | India |
 |    #7 | Santhosh NC | 6 | India |
 |    #8 | Yuki Hattori | 6 | Japan |
 |    #9 | Akitaka Shinba | 6 | Japan |
@@ -25,16 +25,6 @@
 - **Total Badges Earned**: 14,272
 - **Average Badges per User**: 1.17
 - **Highest Badge Count**: 11
-
----
-
-## ⚠️ Data Freshness Warning
-
-The following countries have data that was not updated in the last run:
-
-| Country | Last Updated | Hours Old |
-|---------|--------------|-----------|
-| Guinea Bissau | 2025-12-30 01:09 UTC | 72h |
 
 ---
 
