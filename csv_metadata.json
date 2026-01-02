@@ -299,11 +299,6 @@
     "last_updated": "2026-01-02T01:42:32.730563",
     "status": "success"
   },
-  "Guinea Bissau": {
-    "csv_file": "datasource/github-certs-guinea-bissau.csv",
-    "last_updated": "2025-12-30T01:09:56.201110",
-    "status": "success"
-  },
   "Grenada": {
     "csv_file": "datasource/github-certs-grenada.csv",
     "last_updated": "2026-01-02T01:42:32.113372",
