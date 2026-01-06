@@ -227,14 +227,14 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
     
     prev_rank = None
     for rank, user in top_users:
-        # Add medal emoji for top 3 ranks (not positions)
-        medal = {1: '🥇', 2: '🥈', 3: '🥉'}.get(rank, '  ')
-        
         # Show rank number only if it's different from previous
         if rank != prev_rank:
-            rank_display = f"{medal} #{rank}"
+            # Add medal emoji for top 3 ranks (first occurrence only)
+            medal = {1: '🥇', 2: '🥈', 3: '🥉'}.get(rank, '')
+            rank_display = f"{medal} #{rank}" if medal else f"#{rank}"
         else:
-            rank_display = f"{medal}    "  # Empty rank for tied users
+            # For tied users: empty cell
+            rank_display = ""
         
         content += f"| {rank_display} | {user['name']} | {user['badges']} | {user['country']} |\n"
         prev_rank = rank
