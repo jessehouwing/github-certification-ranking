@@ -1,6 +1,6 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil
 
-> Last updated: January 14, 2026 at 01:48 UTC
+> Last updated: January 14, 2026 at 13:32 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -12,11 +12,13 @@
 |  | Joao Pedro Alexandre Vieira | 7 | Brazil |
 | #5 | Francisco Nascimento | 6 | Brazil |
 |  | Mateus Lenhart | 6 | Brazil |
-| #7 | Beatriz Matsui | 5 | Brazil |
+| #7 | Andre Nunes | 5 | Brazil |
+|  | Beatriz Matsui | 5 | Brazil |
 |  | Christiano Martins Milfont Almeida | 5 | Brazil |
 |  | Diego Giglioli | 5 | Brazil |
 |  | Ednei Monteiro | 5 | Brazil |
 |  | Eduarda Costa da Silva | 5 | Brazil |
+|  | Elisabete Martins de Oliveira | 5 | Brazil |
 |  | Fernando Moreni | 5 | Brazil |
 |  | Jailton Santos Sales Junior | 5 | Brazil |
 |  | Juliano Dziadzio | 5 | Brazil |
@@ -28,8 +30,8 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 1,490
-- **Total Badges Earned**: 1,720
-- **Average Badges per User**: 1.15
+- **Total Badges Earned**: 1,732
+- **Average Badges per User**: 1.16
 - **Highest Badge Count**: 14
 
 ---

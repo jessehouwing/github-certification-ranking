@@ -1,16 +1,17 @@
 # 🌏 TOP 10 GitHub Certifications - Asia
 
-> Last updated: January 14, 2026 at 01:48 UTC
+> Last updated: January 14, 2026 at 13:32 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Country |
 |------|------|--------|---------|
-| 🥇 #1 | stephie Mercy | 12 | India |
+| 🥇 #1 | stephie Mercy | 14 | India |
 | 🥈 #2 | Emre Ozan Memis | 9 | Turkey |
 |  | Ramesh Kumar Dasari | 9 | India |
 | #4 | Niranjana K | 7 | India |
-| #5 | Akitaka Shinba | 6 | Japan |
+|  | SWAPNIL DAMATE | 7 | India |
+| #6 | Akitaka Shinba | 6 | Japan |
 |  | Hoysala Garudanagiri | 6 | India |
 |  | Nagaraj Bhairaji | 6 | India |
 |  | NIKHIL GOWDA N | 6 | India |
@@ -23,9 +24,9 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 12,186
-- **Total Badges Earned**: 14,289
-- **Average Badges per User**: 1.17
-- **Highest Badge Count**: 12
+- **Total Badges Earned**: 14,327
+- **Average Badges per User**: 1.18
+- **Highest Badge Count**: 14
 
 ---
 
