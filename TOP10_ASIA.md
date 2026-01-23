@@ -1,12 +1,12 @@
 # 🌏 TOP 10 GitHub Certifications - Asia
 
-> Last updated: January 22, 2026 at 01:51 UTC
+> Last updated: January 23, 2026 at 01:49 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Company | Country |
 |------|------|--------|---------|---------|
-| 🥇 #1 | [stephie Mercy](https://www.credly.com/users/stephie-mercy/badges) | 14 |  | India |
+| 🥇 #1 | [stephie Mercy](https://www.credly.com/users/stephie-mercy/badges) | 14 | Ivalue Infosolutions Limited | India |
 | 🥈 #2 | [Rajesh C N](https://www.credly.com/users/rajesh-c-n/badges) | 11 | Xebia | India |
 | 🥉 #3 | [Emre Ozan Memis](https://www.credly.com/users/emre-ozan-memis/badges) | 10 |  | Turkey |
 | #4 | [Ramesh Kumar Dasari](https://www.credly.com/users/ramesh-kumar.6071340e/badges) | 9 |  | India |
