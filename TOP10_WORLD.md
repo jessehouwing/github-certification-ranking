@@ -1,6 +1,6 @@
 # 🌍 TOP 10 GitHub Certifications - Global
 
-> Last updated: January 26, 2026 at 01:58 UTC
+> Last updated: January 26, 2026 at 18:37 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -8,13 +8,14 @@
 |------|------|--------|---------|---------|
 | 🥇 #1 | [Andre Dias](https://www.credly.com/users/andredias/badges) | 15 | Avanade | Brazil |
 |  | [Felipe Augusto](https://www.credly.com/users/felipementel/badges) | 15 | Avanade | Brazil |
+|  | [Ramesh Kumar Dasari](https://www.credly.com/users/ramesh-kumar.6071340e/badges) | 15 |  | India |
 |  | [Rob Bos](https://www.credly.com/users/rob-bos/badges) | 15 | Xebia | Netherlands |
-| #4 | [Christos Galanopoulos](https://www.credly.com/users/christos-galanopoulos/badges) | 14 |  | Greece |
+| #5 | [Christos Galanopoulos](https://www.credly.com/users/christos-galanopoulos/badges) | 14 |  | Greece |
 |  | [Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges) | 14 | Delta-N | Netherlands |
 |  | [Madis Kõosaar](https://www.credly.com/users/madis-koosaar/badges) | 14 | Solidify AB | Estonia |
 |  | [Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges) | 14 | Avanade | France |
 |  | [stephie Mercy](https://www.credly.com/users/stephie-mercy/badges) | 14 | Ivalue Infosolutions Limited | India |
-| #9 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges) | 13 | Avanade | Brazil |
+| #10 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges) | 13 | Avanade | Brazil |
 |  | [Daniel Koch](https://www.credly.com/users/daniel-koch.dc5d8183/badges) | 13 | CodeCargo | United States |
 |  | [Marco Celon](https://www.credly.com/users/marco-celon.53bc8019/badges) | 13 | GitHub | Australia |
 |  | [Nico Orschel](https://www.credly.com/users/nico-orschel/badges) | 13 | Xpirit Germany GmbH | Germany |
@@ -24,8 +25,8 @@
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 24,917
-- **Total Badges Earned**: 31,152
+- **Total Certified Users**: 24,920
+- **Total Badges Earned**: 31,164
 - **Average Badges per User**: 1.25
 - **Highest Badge Count**: 15
 
