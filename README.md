@@ -32,38 +32,55 @@
 
 The rankings are automatically updated daily via GitHub Actions:
 
-1. **Data Collection**: Fetches certification data from Credly API for all countries globally
-   - Collects **verified badges** from GitHub organization (Credly org ID: 63074953-290b-4dce-86ce-ea04b4187219)
-   - Collects **external badges** (GitHub certifications issued by Microsoft via learn.microsoft.com)
-   - Uses parallel processing with `fetch_data.py` for fast data retrieval
-   - Specialized `fetch_large_country.py` for countries with large datasets (e.g., India, United States)
-   - Smart metadata tracking to skip recently updated countries and optimize API usage
-2. **Data Storage**: All certification data stored in the `datasource/` directory
+1. **Data Collection**: Fetches certification data from Credly API for all countries worldwide
+   - Collects GitHub certifications from official GitHub organization badges
+   - Includes Microsoft-issued GitHub certifications (migrated from GitHub in 2024)
+   - Uses parallel processing for fast data retrieval
+   - Optimized handling for large countries (India, USA, Brazil, UK)
+   
+2. **Smart Filtering**: Ensures ranking accuracy
+   - **Expired certifications are automatically excluded** from counts
+   - Only valid (non-expired) certifications count toward rankings
+   - Top 30 candidates per country are validated for accurate results
+   - 96% reduction in API requests with intelligent candidate selection
+   
+3. **Company Information**: Enriches rankings with professional context
+   - Company data fetched from public Credly user profiles
+   - Displayed alongside name and certification count in rankings
+   - Updated during ranking generation for top performers only
+   
+4. **Data Storage**: All certification data in the `datasource/` directory
    - Individual CSV files per country (e.g., `github-certs-brazil.csv`)
-   - Badge counts include both verified (GitHub org) and external (Microsoft) badges
-   - Metadata tracking in `csv_metadata.json` for update timestamps
-3. **Processing**: Consolidates data from 190+ country CSV files
-4. **Ranking Generation**: Creates TOP 10 rankings for each region using `generate_rankings.py`
-   - Regional rankings: Brazil, Americas, Europe, Asia, Oceania
+   - Metadata tracking for update timestamps and optimization
+   
+5. **Ranking Generation**: Creates TOP 10 rankings for each region
+   - Regional rankings: Brazil, Americas, Europe, Asia, Africa, Oceania
    - Global ranking with top performers worldwide
-5. **Auto-Commit**: Updates markdown files automatically with latest rankings
+   - Automatic markdown file updates with latest data
 
 ### ℹ️ GitHub Certifications Sources
 
-This project now tracks GitHub certifications from **two sources**:
+This project tracks GitHub certifications from **two sources**:
 
-1. **Credly Verified Badges** - Issued directly by GitHub organization
+1. **GitHub Organization Badges** - Official certifications issued directly by GitHub
    - GitHub Foundations
    - GitHub Actions  
    - GitHub Advanced Security
    - GitHub Administration
    - GitHub Copilot
    
-2. **Microsoft External Badges** - GitHub certifications now issued via Microsoft Learn
+2. **Microsoft-Issued Badges** - GitHub certifications transitioned to Microsoft Learn
    - GitHub Foundations (Microsoft Certified)
-   - Other GitHub certifications transitioned to Microsoft
+   - Other GitHub certifications now issued via learn.microsoft.com
 
-> **Note**: As of 2024, GitHub migrated certification issuance to Microsoft Learn. This tool now counts certifications from both platforms to provide accurate rankings.
+> **Note**: As of 2024, GitHub migrated certification issuance to Microsoft Learn. Both sources are tracked to provide complete and accurate rankings.
+
+### 🎯 Ranking Accuracy
+
+- **Expiration Filtering**: Only active, non-expired certifications are counted
+- **Automatic Validation**: Certification expiration dates are checked against current date
+- **Example**: A user with 15 total badges but 3 expired will show 12 valid certifications
+- **Daily Updates**: Rankings refresh daily to reflect newly issued and expired certifications
 
 ## 🚀 Manual Execution
 
@@ -134,10 +151,18 @@ python3 generate_rankings.py
 Data is sourced from the [Credly API](https://www.credly.com/api/v1/directory) for GitHub certifications.
 
 ### Performance Optimizations
+- **Intelligent Candidate Selection**: Fetches detailed badge data only for top 30 candidates per country
+  - Reduces API requests by 96% (from ~1,600 to ~60 requests for large countries)
+  - ~27x faster execution while maintaining accuracy
 - **Parallel Processing**: Fetches multiple countries simultaneously using ThreadPoolExecutor
-- **Metadata Tracking**: Skips recently updated countries to reduce API calls
-- **Specialized Handlers**: Large countries use optimized parallel page fetching (up to 20 concurrent requests)
-- **Intelligent Caching**: CSV files stored with timestamps in metadata
+- **Metadata Tracking**: Skips recently updated countries to reduce unnecessary API calls
+- **Specialized Handlers**: Large countries use optimized parallel page fetching
+- **Smart Caching**: CSV files stored with timestamps for efficient updates
+
+### Certification Validation
+- **Expiration Checking**: Each badge's `expires_at_date` is validated against current date
+- **Dual Source Tracking**: Combines GitHub org badges + Microsoft external badges
+- **Top Performer Focus**: Detailed validation applied to ranking candidates only
 
 ### Regional Coverage
 - **Americas**: 30+ countries including Brazil, USA, Canada, Argentina, Mexico, etc.

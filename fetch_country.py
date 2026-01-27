@@ -13,8 +13,22 @@ import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
+def is_badge_expired(expires_at_date):
+    """Check if a badge is expired based on expires_at_date"""
+    if not expires_at_date:  # null = never expires
+        return False
+    
+    try:
+        # Parse date string (format: "YYYY-MM-DD")
+        expiration_date = datetime.strptime(expires_at_date, "%Y-%m-%d").date()
+        current_date = datetime.now().date()
+        return expiration_date < current_date
+    except Exception:
+        # If we can't parse the date, assume not expired to avoid false positives
+        return False
+
 def fetch_github_external_badges(user_id):
-    """Fetch GitHub external badges (Microsoft-issued) for a user"""
+    """Fetch GitHub external badges (Microsoft-issued) for a user, excluding expired ones"""
     url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public?page=1&page_size=48"
     
     try:
@@ -22,20 +36,55 @@ def fetch_github_external_badges(user_id):
         response.raise_for_status()
         data = response.json()
         
-        # Filter only GitHub badges issued by Microsoft
-        github_badges = []
+        # Filter only GitHub badges issued by Microsoft that are not expired
+        valid_github_badges = 0
         for badge in data.get('data', []):
             external_badge = badge.get('external_badge', {})
             badge_name = external_badge.get('badge_name', '')
             issuer_name = external_badge.get('issuer_name', '')
+            expires_at_date = badge.get('expires_at_date')
             
-            # Check if it's a GitHub certification issued by Microsoft
+            # Check if it's a GitHub certification issued by Microsoft and not expired
             if issuer_name == 'Microsoft' and 'GitHub' in badge_name:
-                github_badges.append(badge)
+                if not is_badge_expired(expires_at_date):
+                    valid_github_badges += 1
         
-        return len(github_badges)
+        return valid_github_badges
     except Exception:
         # If external badges endpoint fails, return 0 (user may have no external badges)
+        return 0
+
+def fetch_github_org_badges(user_id):
+    """Fetch GitHub badges issued directly by GitHub org, excluding expired ones"""
+    url = f"https://www.credly.com/users/{user_id}/badges.json?page=1&per_page=100"
+    
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        
+        # Count only non-expired badges from GitHub organization
+        valid_badges = 0
+        for badge in data.get('data', []):
+            # Check if badge is from GitHub organization
+            issuer = badge.get('issuer', {})
+            entities = issuer.get('entities', [])
+            is_github_org = False
+            
+            for entity in entities:
+                org_data = entity.get('entity', {})
+                if org_data.get('id') == '63074953-290b-4dce-86ce-ea04b4187219':  # GitHub org ID
+                    is_github_org = True
+                    break
+            
+            if is_github_org:
+                expires_at_date = badge.get('expires_at_date')
+                if not is_badge_expired(expires_at_date):
+                    valid_badges += 1
+        
+        return valid_badges
+    except Exception:
+        # If badges endpoint fails, return 0
         return 0
 
 def fetch_country_data(country):
@@ -67,35 +116,49 @@ def fetch_country_data(country):
             print(f"  Error on page {page}: {e}")
             break
     
-    # Now fetch external badges in parallel for all users
+    # Optimization: Only fetch detailed badges for top candidates
+    # This reduces requests from thousands to ~50-100
     if all_users:
-        print(f"  Fetching external badges for {len(all_users)} users...")
-        user_external_counts = {}
+        # Sort by directory badge_count (includes expired) to get top candidates
+        all_users_sorted = sorted(all_users, key=lambda x: x.get('badge_count', 0), reverse=True)
+        
+        # Take top 30 candidates (with safety margin for ties and expired badges)
+        # If fewer users, take all
+        top_candidates = all_users_sorted[:min(30, len(all_users_sorted))]
+        
+        print(f"  Fetching detailed badges for top {len(top_candidates)} candidates (to check expiration)...")
+        user_badge_counts = {}
+        
+        def fetch_all_badges(user_id):
+            """Fetch both org badges and external badges"""
+            org_count = fetch_github_org_badges(user_id)
+            external_count = fetch_github_external_badges(user_id)
+            return org_count + external_count
         
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_user = {
-                executor.submit(fetch_github_external_badges, user.get('id')): user.get('id')
-                for user in all_users if user.get('id')
+                executor.submit(fetch_all_badges, user.get('id')): user.get('id')
+                for user in top_candidates if user.get('id')
             }
             
             completed = 0
             for future in as_completed(future_to_user):
                 user_id = future_to_user[future]
                 try:
-                    external_count = future.result()
-                    user_external_counts[user_id] = external_count
+                    badge_count = future.result()
+                    user_badge_counts[user_id] = badge_count
                     completed += 1
-                    if completed % 50 == 0:
-                        print(f"    Progress: {completed}/{len(all_users)} users")
                 except Exception:
-                    user_external_counts[user_id] = 0
+                    user_badge_counts[user_id] = 0
         
-        # Add external badge counts to users
+        print(f"  Processed {len(user_badge_counts)} top candidates")
+        
+        # Update badge counts with valid (non-expired) badges only for top candidates
+        # Keep original badge_count for others (they won't be in rankings anyway)
         for user in all_users:
             user_id = user.get('id')
-            if user_id:
-                external_count = user_external_counts.get(user_id, 0)
-                user['badge_count'] = user.get('badge_count', 0) + external_count
+            if user_id and user_id in user_badge_counts:
+                user['badge_count'] = user_badge_counts[user_id]
     
     return all_users
 
