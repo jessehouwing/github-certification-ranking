@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Zeeshan,,.,1,/users/zeeshan.819bc2be/badges
 MUHAMMAD,,AHMAR ABEED KHAN,1,/users/muhammad-ahmar-abeed-khan/badges
-Muhammad,,Abdullah Khan,1,/users/muhammad-abdullah-khan.f904c0be/badges
+Muhammad,,Abdullah Khan,0,/users/muhammad-abdullah-khan.f904c0be/badges
 Ahmed,,Abdullah,2,/users/ahmad-abdullah.191fc3e3/badges
 Muhammad,,Abdullah,1,/users/muhammad-abdullah.3b327f40/badges
 Muhammad,,Abdullah,1,/users/muhammad-abdullah.43e178a4/badges
@@ -73,11 +73,11 @@ Husnain,,Islam,1,/users/husnain-islam/badges
 Haider,,Ittefaq,1,/users/haider-ittefaq/badges
 Hassan Zaib,,Jadoon,1,/users/hassan-zaib-jadoon/badges
 Usama,,Jameel,1,/users/usama-jameel.7092baac/badges
-Muhammad Hamad,,Jamil,2,/users/muhammad-hamad-jamil.c532bab5/badges
+Muhammad Hamad,,Jamil,0,/users/muhammad-hamad-jamil.c532bab5/badges
 Muhammad Hamad,,Jamil,1,/users/muhammad-hamad-jamil.d5bce5bb/badges
 Motabar,,Javaid,1,/users/motabar-javaid/badges
 Muhammad Azhar,,Javaid,1,/users/muhammad-azhar-javaid/badges
-Muhammad Ahsan,,Javed,3,/users/muhammad-ahsan-javed.b84de87f/badges
+Muhammad Ahsan,,Javed,0,/users/muhammad-ahsan-javed.b84de87f/badges
 Muhammad Hassaan,,Javed,1,/users/itxcrusher/badges
 Muhammad,,Jawad,1,/users/muhammad-jawad.7f5aaf4a/badges
 Umair,,Jibran,1,/users/umair-jibran/badges
