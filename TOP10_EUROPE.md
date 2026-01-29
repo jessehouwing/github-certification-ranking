@@ -1,6 +1,6 @@
 # 🇪🇺 TOP 10 GitHub Certifications - Europe
 
-> Last updated: January 28, 2026 at 14:19 UTC
+> Last updated: January 29, 2026 at 02:02 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -8,10 +8,10 @@
 |------|------|--------|---------|---------|
 | 🥇 #1 | [Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges) | 15 | Delta-N | Netherlands |
 | 🥈 #2 | [Christos Galanopoulos](https://www.credly.com/users/christos-galanopoulos/badges) | 14 |  | Greece |
-|  | [Madis Kõosaar](https://www.credly.com/users/madis-koosaar/badges) | 14 | Solidify AB | Estonia |
 |  | [Rob Bos](https://www.credly.com/users/rob-bos/badges) | 14 | Xebia | Netherlands |
 |  | [Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 14 | Avanade | France |
-| #6 | [Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges) | 13 |  | Netherlands |
+| #5 | [Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges) | 13 | Xebia | Netherlands |
+|  | [Madis Kõosaar](https://www.credly.com/users/madis-koosaar/badges) | 13 | Solidify AB | Estonia |
 |  | [Nico Orschel](https://www.credly.com/users/nico-orschel/badges) | 13 | Xpirit Germany GmbH | Germany |
 |  | [Till Spindler](https://www.credly.com/users/till-spindler/badges) | 13 | Eficode | Germany |
 | #9 | [Konrad Dunikowski](https://www.credly.com/users/konrad-dunikowski/badges) | 12 | Transition Technologies PSC | Poland |
@@ -21,9 +21,9 @@
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 4,134
-- **Total Badges Earned**: 5,768
-- **Average Badges per User**: 1.40
+- **Total Certified Users**: 4,163
+- **Total Badges Earned**: 5,854
+- **Average Badges per User**: 1.41
 - **Highest Badge Count**: 15
 
 ---
