@@ -1,6 +1,6 @@
 # 🇪🇺 TOP 10 GitHub Certifications - Europe
 
-> Last updated: February 07, 2026 at 00:22 UTC
+> Last updated: February 08, 2026 at 00:25 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -12,18 +12,18 @@
 | #4 | [Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges) | 15 | Xebia | Netherlands |
 |  | [Madis Kõosaar](https://www.credly.com/users/madis-koosaar/badges) | 15 | Solidify AB | Estonia |
 |  | [Nico Orschel](https://www.credly.com/users/nico-orschel/badges) | 15 | Xpirit Germany GmbH | Germany |
-| #7 | [Till Spindler](https://www.credly.com/users/till-spindler/badges) | 14 | Eficode | Germany |
+| #7 | [Sujith Quintelier](https://www.credly.com/users/sujith/badges) | 14 | Microsoft | Belgium |
+|  | [Till Spindler](https://www.credly.com/users/till-spindler/badges) | 14 | Eficode | Germany |
 |  | [Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 14 | Avanade | France |
-| #9 | [Christos Galanopoulos](https://www.credly.com/users/christos-galanopoulos/badges) | 13 |  | Greece |
+| #10 | [Christos Galanopoulos](https://www.credly.com/users/christos-galanopoulos/badges) | 13 |  | Greece |
 |  | [Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges) | 13 | Avanade | France |
-|  | [Sujith Quintelier](https://www.credly.com/users/sujith/badges) | 13 | Xebia | Belgium |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 4,180
-- **Total Badges Earned**: 6,057
+- **Total Certified Users**: 4,181
+- **Total Badges Earned**: 6,055
 - **Average Badges per User**: 1.45
 - **Highest Badge Count**: 18
 
