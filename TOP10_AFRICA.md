@@ -1,6 +1,6 @@
 # 🦁 TOP 10 GitHub Certifications - Africa
 
-> Last updated: August 31, 2026 at 01:14 UTC
+> Last updated: September 01, 2026 at 01:20 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
