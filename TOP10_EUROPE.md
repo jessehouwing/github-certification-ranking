@@ -1,6 +1,6 @@
 # 🇪🇺 TOP 10 GitHub Certifications - Europe
 
-> Last updated: September 03, 2026 at 01:14 UTC
+> Last updated: September 04, 2026 at 01:09 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -23,8 +23,8 @@
 
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | Xebia | 248 | 29 |
-| 🥈 #2 | Eficode | 144 | 25 |
+| 🥇 #1 | Xebia | 249 | 30 |
+| 🥈 #2 | Eficode | 145 | 25 |
 | 🥉 #3 | Microsoft | 133 | 68 |
 | #4 | Avanade | 124 | 41 |
 | #5 | Delta-N | 74 | 6 |
@@ -46,7 +46,7 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 4,022
-- **Total Badges Earned**: 6,034
+- **Total Badges Earned**: 6,036
 - **Average Badges per User**: 1.50
 - **Highest Badge Count**: 23
 

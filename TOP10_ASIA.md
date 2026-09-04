@@ -1,6 +1,6 @@
 # � TOP 10 GitHub Certifications - Asia
 
-> Last updated: September 03, 2026 at 01:14 UTC
+> Last updated: September 04, 2026 at 01:09 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -27,7 +27,7 @@
 | 🥈 #2 | Tata Consultancy Services | 400 | 251 |
 | 🥉 #3 | Accenture | 195 | 177 |
 | #4 | Wipro | 109 | 78 |
-| #5 | Cognizant<br>Infosys | 107 | 86<br>78 |
+| #5 | Cognizant<br>Infosys | 108 | 87<br>79 |
 
 ---
 
