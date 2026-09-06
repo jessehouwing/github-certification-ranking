@@ -1,6 +1,6 @@
 # 🌍 TOP 10 GitHub Certifications - Global
 
-> Last updated: September 05, 2026 at 01:08 UTC
+> Last updated: September 06, 2026 at 01:16 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -25,7 +25,7 @@
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Canarys Automations Limited | 531 | 38 |
 | 🥈 #2 | Xebia | 493 | 52 |
-| 🥉 #3 | Tata Consultancy Services | 481 | 290 |
+| 🥉 #3 | Tata Consultancy Services | 482 | 290 |
 | #4 | Avanade | 475 | 94 |
 | #5 | Microsoft | 377 | 227 |
 
@@ -35,18 +35,18 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | India | 19960 | 16578 |
+| 🥇 #1 | India | 19962 | 16579 |
 | 🥈 #2 | United States | 3513 | 2491 |
 | 🥉 #3 | Brazil | 2123 | 1512 |
-| #4 | United Kingdom | 987 | 710 |
+| #4 | United Kingdom | 986 | 709 |
 | #5 | Canada | 710 | 536 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 30,754
-- **Total Badges Earned**: 39,176
+- **Total Certified Users**: 30,755
+- **Total Badges Earned**: 39,181
 - **Average Badges per User**: 1.27
 - **Highest Badge Count**: 23
 
