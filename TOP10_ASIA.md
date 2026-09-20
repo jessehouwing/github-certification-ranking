@@ -1,6 +1,6 @@
 # � TOP 10 GitHub Certifications - Asia
 
-> Last updated: September 19, 2026 at 01:03 UTC
+> Last updated: September 20, 2026 at 01:03 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -24,10 +24,10 @@
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Canarys Automations Limited | 543 | 39 |
-| 🥈 #2 | Tata Consultancy Services | 402 | 252 |
+| 🥈 #2 | Tata Consultancy Services | 403 | 253 |
 | 🥉 #3 | Accenture | 196 | 178 |
 | #4 | Wipro | 115 | 82 |
-| #5 | Cognizant | 109 | 88 |
+| #5 | Infosys | 110 | 79 |
 
 ---
 
@@ -46,7 +46,7 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 18,754
-- **Total Badges Earned**: 22,606
+- **Total Badges Earned**: 22,607
 - **Average Badges per User**: 1.21
 - **Highest Badge Count**: 22
 
@@ -58,8 +58,8 @@ The following countries have data that was not updated in the last run:
 
 | Country | Last Updated | Hours Old |
 |---------|--------------|-----------|
-| Belarus | 2026-09-07 00:43 UTC | 288h |
-| Cuba | 2026-09-07 00:44 UTC | 288h |
+| Belarus | 2026-09-07 00:43 UTC | 312h |
+| Cuba | 2026-09-07 00:44 UTC | 312h |
 
 ---
 

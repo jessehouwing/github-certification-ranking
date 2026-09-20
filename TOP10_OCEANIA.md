@@ -1,6 +1,6 @@
 # 🌊 TOP 10 GitHub Certifications - Oceania
 
-> Last updated: September 19, 2026 at 01:03 UTC
+> Last updated: September 20, 2026 at 01:03 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -52,8 +52,8 @@ The following countries have data that was not updated in the last run:
 
 | Country | Last Updated | Hours Old |
 |---------|--------------|-----------|
-| Belarus | 2026-09-07 00:43 UTC | 288h |
-| Cuba | 2026-09-07 00:44 UTC | 288h |
+| Belarus | 2026-09-07 00:43 UTC | 312h |
+| Cuba | 2026-09-07 00:44 UTC | 312h |
 
 ---
 
