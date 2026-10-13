@@ -1,6 +1,6 @@
 # � TOP 10 GitHub Certifications - Asia
 
-> Last updated: October 12, 2026 at 01:11 UTC
+> Last updated: October 13, 2026 at 01:09 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -26,8 +26,8 @@
 | 🥇 #1 | Canarys Automations Limited | 543 | 39 |
 | 🥈 #2 | Tata Consultancy Services | 403 | 253 |
 | 🥉 #3 | Accenture | 198 | 180 |
-| #4 | Wipro | 116 | 83 |
-| #5 | Cognizant | 115 | 92 |
+| #4 | Cognizant<br>Wipro | 116 | 93<br>83 |
+| #5 | Infosys | 111 | 80 |
 
 ---
 
@@ -58,8 +58,8 @@ The following countries have data that was not updated in the last run:
 
 | Country | Last Updated | Hours Old |
 |---------|--------------|-----------|
-| Belarus | 2026-09-07 00:43 UTC | 840h |
-| Cuba | 2026-09-07 00:44 UTC | 840h |
+| Belarus | 2026-09-07 00:43 UTC | 864h |
+| Cuba | 2026-09-07 00:44 UTC | 864h |
 
 ---
 
