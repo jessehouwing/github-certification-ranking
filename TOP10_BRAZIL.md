@@ -1,6 +1,6 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil
 
-> Last updated: October 13, 2026 at 01:09 UTC
+> Last updated: October 14, 2026 at 01:00 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -46,8 +46,8 @@ The following countries have data that was not updated in the last run:
 
 | Country | Last Updated | Hours Old |
 |---------|--------------|-----------|
-| Belarus | 2026-09-07 00:43 UTC | 864h |
-| Cuba | 2026-09-07 00:44 UTC | 864h |
+| Belarus | 2026-09-07 00:43 UTC | 888h |
+| Cuba | 2026-09-07 00:44 UTC | 888h |
 
 ---
 
