@@ -1,7 +1,8 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Borzenko,,Olena,8,/users/borzenko-olena/badges,Xebia
+Marko,,Sawall,6,/users/marko-sawall/badges,Xebia
+Magnus,,Gielessen,3,/users/magnus-gielessen/badges,
 Florian,,Assmus,6,/users/florian-assmus/badges,
-Borzenko,,Olena,6,/users/borzenko-olena/badges,Xebia
-Marko,,Sawall,3,/users/marko-sawall/badges,Xebia
 Nico,,Orschel,25,/users/nico-orschel/badges,Xebia
 Till,,Spindler,25,/users/till-spindler/badges,Eficode
 Igor,,Lakhtenkov,13,/users/igor-lakhtenkov.81d2dd0a/badges,
@@ -83,7 +84,7 @@ Dominik,,Wombacher,1,/users/dominik-wombacher/badges,
 Aimen,,Rejeb,1,/users/aimen-rejeb/badges,
 Robin,,Konrad,2,/users/robin-konrad/badges,
 Jörg,,Jakoby,1,/users/jorg-jakoby/badges,
-Jonathan,,David,3,/users/jonathan-david.59eed3ce/badges,Xebia
+Jonathan,,David,4,/users/jonathan-david.59eed3ce/badges,Xebia
 Sven,,Gapski,1,/users/sven-gapski/badges,IBM Client Innovation Center Germany GmbH
 Florian,,Richter,1,/users/florian-richter.26584944/badges,
 Turgay,,Akbas,3,/users/turgay-akbas/badges,
@@ -178,7 +179,7 @@ Sridhar,,Shanmugham,1,/users/sridhar-shanmugham/badges,Deutsche Börse
 Sophie,,Keil,1,/users/sophie-keil.22324c21/badges,
 Torben,,Haack,2,/users/torben-haack/badges,
 Guilherme,,Teixeira,3,/users/guilherme-teixeira.5de592b6/badges,
-Artur,,Kordowski,4,/users/artur-kordowski/badges,Xebia
+Artur,,Kordowski,5,/users/artur-kordowski/badges,Xebia
 Tom,,Kaleße,1,/users/tom-kalesse/badges,
 Simon,,Ott,1,/users/simon-ott.ded88686/badges,
 Clemens,,Wimmer,1,/users/clemens-wimmer/badges,
@@ -329,8 +330,8 @@ Maximilian,,Quernheim,1,/users/maximilian-quernheim/badges,
 Maik,,Wendt,1,/users/maik-wendt/badges,
 Martin,,Hentschel,2,/users/martin-hentschel.c99bc3da/badges,
 Kanchana,,Taggarsi,1,/users/kanchana-taggarsi/badges,
-Lasse,,Haffke,2,/users/lasse-haffke/badges,
-Benedikt,,Funke,1,/users/benedikt-funke/badges,
+Lasse,,Haffke,1,/users/lasse-haffke/badges,
+Benedikt,,Funke,0,/users/benedikt-funke/badges,
 Matthias,,Wiesen,0,/users/matthias-wiesen/badges,
 Tim,,Möllers,2,/users/tim-mollers.dffd0f7e/badges,
 Heikki,,Pöntinen,0,/users/heikki-pontinen/badges,

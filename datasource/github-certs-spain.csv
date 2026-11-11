@@ -1,4 +1,16 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+David,,Sancho,0,/users/david-sancho.18f20e4c/badges,
+Andres,Francisco,Muñoz Echeverria,1,/users/andres-munoz-echeverria/badges,Volkswagen España
+Sean,,McCleary,0,/users/sean-mccleary.9c8c381b/badges,
+Francisco de Paula,,Pérez León,0,/users/francisco-de-paula-perez-leon/badges,
+Pablo,,Molina Mata,0,/users/pablo-molina-mata.77756838/badges,
+Iker,,Obregon Reigosa,1,/users/iker-obregon-reigosa/badges,
+Unai,,Zorrilla Castro,0,/users/unai-zorrilla-castro/badges,PlainConcepts
+Elena,,Batanero,1,/users/elena-batanero/badges,
+unai,,Huete,0,/users/unai-huete/badges,Microsoft
+Raúl,,Piracés,0,/users/raul-piraces/badges,Plain Concepts
+Luis,,Fraile,1,/users/luis-fraile/badges,
+Eduardo,,Caceres,0,/users/eduardo-caceres.b9cc6da1/badges,
 Samuel,,Moreno Cordero,1,/users/samuel-moreno-cordero/badges,
 Jean Carlos,,Ramirez,1,/users/jean-carlos-ramirez/badges,
 Felix,,Garcia Lainez,1,/users/fgarcialainez/badges,Acronis
@@ -149,118 +161,6 @@ Daniel,,Morillo,1,/users/daniel-morillo.198b3989/badges,
 Carlos,,Garcia Tovar,1,/users/carlos-garcia-tovar/badges,
 Miguel,,Callado Martin,1,/users/miguel-callado-martin/badges,
 Diego,,Chillerón Muñoz,1,/users/diego-chilleron-munoz/badges,
-Papa Issa,,DIAKHATE,4,/users/paissad/badges,
-Margarita,,Sanz,5,/users/margarita-sanz.8b60fc23/badges,
-Samuel,,Osorio Calvo,1,/users/samuel-osorio-calvo/badges,
-Francisco,,Calvo Vicente,6,/users/fcalvov/badges,
-Francisco,,Cosin,3,/users/fcosin/badges,UST
-Juanjo,,Carmena Ayuso,1,/users/juanjo-carmena-ayuso/badges,
-David,,Oliva Paredes,2,/users/david-oliva-paredes/badges,
-Diego,Miguel,Arostegui Galarza,1,/users/diego-miguel-arostegui/badges,GitHub
-Cristina,,Infante,3,/users/cristina-infante.8c26db5e/badges,
-Sergio,,Fernández Rubio,2,/users/sergio-fernandez-rubio.a04ec1b9/badges,Xebia
-Melissa,,Urena,1,/users/melissa-urena.bb451eba/badges,
-Bohdan,,Cherniak,1,/users/bohdan-cherniak/badges,
-Miguel Angel,,Garcia Gomez,1,/users/miguel-angel-garcia-gomez.aa1e6d42/badges,
-Manuel,,Sánchez,1,/users/manuelsanchezrodriguez/badges,everis
-Raul,,Jimenez Martinez,1,/users/raul-jimenez-martinez/badges,
-ivan,,ortega,1,/users/ivan-ortega.2201ae1d/badges,
-Carlota,,Monedero,1,/users/carlota-monedero/badges,
-Maximilian Jose,,Dehling Montilla,1,/users/maximilian-jose-dehling-montilla/badges,
-Luisa,,Salazar,1,/users/luisa-salazar.57595f34/badges,
-Toni,,Martínez,1,/users/toni-martinez.f4ae83b0/badges,
-Marta,,Vilaseca,1,/users/marta-vilaseca/badges,
-Masa,,Gulyás,1,/users/masa-gulyas/badges,
-Sergio,,Lillo Martínez,1,/users/sergio-lillo-martinez/badges,
-Abdelrahman,,Farag,1,/users/abdelrahman-farag.1a9c0e54/badges,Sopra Steria
-Ana Belén,,Delgado Parra,1,/users/ana-belen-delgado-parra/badges,
-Jose Antonio,,Paredes Leon,1,/users/jose-antonio-paredes-leon/badges,
-Alfonso,,Atienza,1,/users/alfonso-atienza.2421d395/badges,
-Angel,,Roman Osma,1,/users/angel-roman-osma/badges,TestOut
-José Antonio,,Toledo Arenas,1,/users/jose-antonio-toledo-arenas/badges,
-Fernando,,Bercedo,2,/users/fernando-bercedo/badges,
-Vanesa,,Vázquez,1,/users/vanesa-vazquez.0d19c1c3/badges,
-Bruno,Veiga,Martinez,1,/users/brunovmar/badges,
-CARLOS,,QUINTERO VIVAR,5,/users/carlos-quintero-vivar/badges,
-Marcos,Vinicius,Costa Bella,1,/users/marcos-vinicius-costa-bella.c9f17213/badges,Softtek
-Pablo,,Casado Rodríguez,1,/users/pablo-casado-rodriguez/badges,
-David,,Mazarro,1,/users/david-mazarro/badges,
-José,,Martín-Forero Royo,3,/users/jose-martin-forero-royo/badges,
-DAVID,,CASTEJON FERRER,1,/users/david-castejon-ferrer/badges,
-Dorota,,Weglinska,1,/users/dorota-weglinska/badges,Insight
-Kaiscer,,Vasquez,1,/users/kaiscer-vasquez/badges,
-Alfredo,,Martin,1,/users/alfredo-martin/badges,
-Gloria,,Casals Zapardiel,1,/users/gloria-casals-zapardiel/badges,
-LUIS EMILIO,,LOPEZ LOPEZ,1,/users/luis-emilio-lopez-lopez/badges,Insight
-Marçal,,Gómez Lavall,1,/users/marcal-gomez-lavall/badges,
-Jonathan,,Loewenstern,1,/users/jonathan-loewenstern/badges,
-nil,,ventosa,1,/users/nil-ventosa/badges,
-Gabi,,Coronado,1,/users/gabi-coronado/badges,
-Alvaro,,Barcena,3,/users/alvaro-barcena/badges,
-Joaquín,,Reyes Lettieri,1,/users/joaquin-reyes-lettieri/badges,
-Diego,,Arroyo,3,/users/diego-arroyo.2e26f31f/badges,
-Borja,Javier,Lanza López,1,/users/bjlanza/badges,Punta de Lanza
-Pedro,,Hermida Costas,1,/users/pedro-hermida-costas/badges,
-Maria,,Moreno Rodriguez,1,/users/maria-moreno-rodriguez/badges,
-Ionut Alexandru,,Curiman Caluianu,1,/users/alexcuriman/badges,atSistemas
-Gádor,,García,1,/users/gador-garcia/badges,
-Rafael,,Librero,1,/users/rafael-librero/badges,
-Juan Manuel,,Cabrera,1,/users/juan-manuel-cabrera/badges,
-Juan Carlos,,Framil Figueroa,1,/users/juan-carlos-framil-figueroa/badges,
-Luis,,Cabrita,1,/users/luis-cabrita/badges,
-David,,Sosa Trejo,1,/users/dvdsosa/badges,
-Miguel Angel,,Alvarez,2,/users/miguel-angel-alvarez.54d87281/badges,Wizeline
-Javi,,Quirante,1,/users/javi-quirante/badges,
-Bruno,,Lerín Salafranca,1,/users/bruno-lerin-salafranca/badges,
-Luis,,Diez Laso,1,/users/luis-diez-laso/badges,
-Misael,,Moreno,1,/users/misael-moreno.cba66cc6/badges,
-Antonio,,Novoa,1,/users/novoadev/badges,NovoaDev
-Julio Cesar,,Negrin Leon,1,/users/julio-cesar-negrin-leon/badges,Michaday S.L
-Álvaro,,García,2,/users/alvaro-garcia.3c40a78e/badges,
-Ander,,Duro,1,/users/ander-duro/badges,
-Pedro,,Lalvay,1,/users/pedro-lalvay/badges,
-Óscar,,Novás Fajardo,1,/users/oscar.novas/badges,
-Mario,,Orozco,1,/users/mario-orozco.43b0f086/badges,
-Paulino Esteban,,Bermúdez Rodríguez,1,/users/paulino-esteban-bermudez-rodriguez.9430c328/badges,
-Jose María,,Alonso Montero,1,/users/jose-maria-alonso-montero/badges,
-Benjamin,,Tarenne,1,/users/benjamin-tarenne/badges,
-Sergio,,Manchón Romero,1,/users/sergio-manchon-romero/badges,Openbank
-Jesús,,Goterris Pitarch,1,/users/jesus-goterris-pitarch/badges,
-Jesús,,Brey Fernandez,1,/users/jesus-brey-fernandez/badges,UST
-Darian Marius,,Chirca,1,/users/darian-marius-chirca/badges,
-Alberto,,Diaz Martin,1,/users/adiazcan/badges,ENCAMINA
-Harold,,Caicedo Torres,3,/users/harold-caicedo.3faaad59/badges,
-Miguel,,Valadez Cano,1,/users/miguel-valadez-cano/badges,
-Iván,,Figueroa Morillo,1,/users/ivan-figueroa-morillo/badges,
-José Manuel,,Corral,1,/users/jmanuelcorral/badges,Microsoft
-Lorenzo,,Reina Delgado,5,/users/lorenzo-reina-delgado/badges,Accenture
-Rafael,,Molina Jimena,1,/users/rafael-molina-jimena/badges,Accenture
-Jorge,,González Benítez,3,/users/jorge-gonzalez-benitez/badges,
-Alberto,,Roselló Martín,3,/users/alberto-rosello-martin/badges,
-Alessandro,,Tejero,2,/users/alessandro-tejero.561baaa5/badges,
-Adrian,,Contreras,4,/users/adrian-contreras.18550597/badges,
-Isabel María,,Román Cordero,2,/users/isabel-maria-roman-cordero.0f68b1b2/badges,
-Daniel,,Rodriguez Muñoz,1,/users/daniel-rodriguez-munoz/badges,
-Ruben,,Bezos Santiago,1,/users/ruben-bezos-santiago/badges,
-Juan,,Gomariz,2,/users/juan-gomariz/badges,
-Adrián,,Zen,2,/users/adrian-zen/badges,
-Esteban Matías,,Bresba Nóbile,1,/users/esteban-matias-bresba-nobile/badges,
-Raul,,Tallero Monge,1,/users/raul-tallero-monge/badges,
-David,,Rodriguez Donoso,1,/users/drdonoso/badges,
-Nacho,,Borente Gonzalez,1,/users/nacho-borente-gonzalez/badges,Accenture
-Hannah,,Garcia,1,/users/hannah-garcia.a5f308bb/badges,
-David,,Sancho,0,/users/david-sancho.18f20e4c/badges,
-Andres,Francisco,Muñoz Echeverria,1,/users/andres-munoz-echeverria/badges,Volkswagen España
-Sean,,McCleary,0,/users/sean-mccleary.9c8c381b/badges,
-Francisco de Paula,,Pérez León,0,/users/francisco-de-paula-perez-leon/badges,
-Pablo,,Molina Mata,0,/users/pablo-molina-mata.77756838/badges,
-Iker,,Obregon Reigosa,1,/users/iker-obregon-reigosa/badges,
-Unai,,Zorrilla Castro,0,/users/unai-zorrilla-castro/badges,PlainConcepts
-Elena,,Batanero,1,/users/elena-batanero/badges,
-unai,,Huete,0,/users/unai-huete/badges,Microsoft
-Raúl,,Piracés,0,/users/raul-piraces/badges,Plain Concepts
-Luis,,Fraile,1,/users/luis-fraile/badges,
-Eduardo,,Caceres,0,/users/eduardo-caceres.b9cc6da1/badges,
 Guillermo,,Rodriguez-Jurado,1,/users/guillermo-rodriguez-jurado/badges,Softwareone
 Alberto,,Blanco Haddad,3,/users/alberto-blanco-haddad/badges,
 Patcharida,,Pudpadee,1,/users/patcharida-pudpadee/badges,
@@ -311,56 +211,56 @@ Miguel,,Fernández Corral,5,/users/miguel-fernandez-corral/badges,AGAP2
 Anzhela,,Kurtalieva Likinova,1,/users/angelak/badges,
 Jose Luis,,Carrillo Aguilar,4,/users/joselcaguilar/badges,
 Victor,Manuel,Varela,3,/users/vmvarela/badges,Hiberus
-Alberto,,de Manuel,1,/users/alberto-de-manuel/badges,
-Mario,,Aguilera,1,/users/mario-aguilera.5288c784/badges,
-Jesus,,Redondo,1,/users/jesus-redondo.f172940f/badges,Dynatrace
-Alfonso,,Palomino Romero,1,/users/alfonso-palomino-romero.2e53f689/badges,
-Miguel,,Bayon,1,/users/miguelbayon/badges,Phoenix Contact
-Roberto,,Arocha,2,/users/roberto-arocha/badges,Microsoft
-Mario,,Rodríguez Hernández,5,/users/mario-rodriguez-hernandez/badges,Indra Group
-Jorge,,Quevedo Duran,3,/users/jorge-quevedo-duran/badges,
-Javier,,Orbe Díez,1,/users/orbe/badges,
-Luis,,Carrascal,5,/users/luis-carrascal/badges,SUSE
-David,Nevado,Martin,3,/users/david-nevado-martin-pmp-software-it-leader-cloud-mba/badges,Kyndryl
-Alejandro,,Lazaro Chueca,2,/users/alejandro-lazaro-chueca/badges,NTT DATA
-Alonso,,Viñé Barrancos,1,/users/alonso-vine-barrancos/badges,
-Víctor Manuel,,Cañada Ojeda,1,/users/victor-manuel-canada-ojeda/badges,
-Enrique,,Andrada,1,/users/enrique-andrada/badges,Avanade
-Agustín,,Ruiz Martín,1,/users/agustin-ruiz-martin/badges,
-Matthew,,Pickles,2,/users/matthew-pickles/badges,
-José,,Cano,1,/users/jose.canovarela/badges,Kyndryl
-Mauro,,Gómez Guillén,1,/users/mauro-gomez-guillen/badges,
-Borja,,Compés Mancisidor,1,/users/borja-compes-mancisidor/badges,
-Alfonso,,López del Castillo,1,/users/alfonso-lopez-del-castillo/badges,
-Raúl,,Martín Rigor,1,/users/raul-martin-rigor/badges,
-Edgar Jesús,,Huerta Meza,1,/users/edgar-jesus-huerta-meza/badges,
-Gabriel,Machado,Amorim,1,/users/gmamorim/badges,team.blue
-Rafael,,Galante Gutiérrez,1,/users/ragalgut/badges,Kyndryl
-Grzegorz,,Mazur,2,/users/grzegorz-mazur.d19fc0fc/badges,
-José antonio,,Carretero borreguero,1,/users/jose-antonio-carretero-borreguero/badges,
-Ángel,,Mac Donald Gainza,1,/users/angel-mac-donald-gainza/badges,
-Carlos,,Gimeno Ortiz,1,/users/carlos-gimeno-ortiz/badges,
-Pablo,,Souto,1,/users/pablo-souto/badges,
-Carlos,,Hernandez-Bueno,1,/users/carlos-hernandez-bueno/badges,
-Priscila,,Rodriguez,3,/users/priscila-rodriguez.4a5c315c/badges,
-Hugo Andrés,,Herrera de Miguel,1,/users/hugo-andres-herrera/badges,
-Jesús,,del Castillo López,1,/users/jesus-del-castillo-lopez/badges,
-Miguel,Angel,Sanchez Marti,3,/users/miguel-angel-sanchez-marti/badges,Lufthansa Technik
-Daniel,,Martinez Madrid,2,/users/daniel-martinez-madrid/badges,@Azertium IT
-Alberto Carlos,,Peinado Santana,1,/users/alberto-carlos-peinado-santana.0c89e931/badges,
-Yana,,Tolstobrova,1,/users/yana-tolstobrova/badges,
-Elisabeth,,Pola,3,/users/elisabeth-pola/badges,
-Nicolas,,Aragon,2,/users/nicolas-aragon/badges,
-Luis Daniel,,García,1,/users/luis-daniel-garcia.64348621/badges,
-Pablo,,Aviles Prieto,1,/users/pablo-aviles-prieto/badges,
-Diego,,Sesmero Fernández,1,/users/diego-sesmero-fernandez/badges,
-Cristina,,Pérez Rodríguez,1,/users/cristina-perez-rodriguez/badges,
-Enric,,Perpinyà,1,/users/enric-perpinya/badges,
-Romina,,Mendez,1,/users/romina-mendez/badges,
-Brian,,Suárez Santiago,4,/users/briansuarezsantiago/badges,NTT DATA
-Guoqing,,Cao,1,/users/guoqing-cao.28bb4413/badges,
-Jose,,Martinez Pradas,1,/users/jose-martinez-pradas/badges,
-Mathias,,Ferreira Ferreira,1,/users/mathias-ferreira-ferreira/badges,
+Borja,Javier,Lanza López,1,/users/bjlanza/badges,Punta de Lanza
+Pedro,,Hermida Costas,1,/users/pedro-hermida-costas/badges,
+Maria,,Moreno Rodriguez,1,/users/maria-moreno-rodriguez/badges,
+Ionut Alexandru,,Curiman Caluianu,1,/users/alexcuriman/badges,atSistemas
+Gádor,,García,1,/users/gador-garcia/badges,
+Rafael,,Librero,1,/users/rafael-librero/badges,
+Juan Manuel,,Cabrera,1,/users/juan-manuel-cabrera/badges,
+Juan Carlos,,Framil Figueroa,1,/users/juan-carlos-framil-figueroa/badges,
+Luis,,Cabrita,1,/users/luis-cabrita/badges,
+David,,Sosa Trejo,1,/users/dvdsosa/badges,
+Miguel Angel,,Alvarez,2,/users/miguel-angel-alvarez.54d87281/badges,Wizeline
+Javi,,Quirante,1,/users/javi-quirante/badges,
+Bruno,,Lerín Salafranca,1,/users/bruno-lerin-salafranca/badges,
+Luis,,Diez Laso,1,/users/luis-diez-laso/badges,
+Misael,,Moreno,1,/users/misael-moreno.cba66cc6/badges,
+Antonio,,Novoa,1,/users/novoadev/badges,NovoaDev
+Julio Cesar,,Negrin Leon,1,/users/julio-cesar-negrin-leon/badges,Michaday S.L
+Álvaro,,García,2,/users/alvaro-garcia.3c40a78e/badges,
+Ander,,Duro,1,/users/ander-duro/badges,
+Pedro,,Lalvay,1,/users/pedro-lalvay/badges,
+Óscar,,Novás Fajardo,1,/users/oscar.novas/badges,
+Mario,,Orozco,1,/users/mario-orozco.43b0f086/badges,
+Paulino Esteban,,Bermúdez Rodríguez,1,/users/paulino-esteban-bermudez-rodriguez.9430c328/badges,
+Jose María,,Alonso Montero,1,/users/jose-maria-alonso-montero/badges,
+Benjamin,,Tarenne,1,/users/benjamin-tarenne/badges,
+Sergio,,Manchón Romero,1,/users/sergio-manchon-romero/badges,Openbank
+Jesús,,Goterris Pitarch,1,/users/jesus-goterris-pitarch/badges,
+Jesús,,Brey Fernandez,1,/users/jesus-brey-fernandez/badges,UST
+Darian Marius,,Chirca,1,/users/darian-marius-chirca/badges,
+Alberto,,Diaz Martin,1,/users/adiazcan/badges,ENCAMINA
+Harold,,Caicedo Torres,3,/users/harold-caicedo.3faaad59/badges,
+Miguel,,Valadez Cano,1,/users/miguel-valadez-cano/badges,
+Iván,,Figueroa Morillo,1,/users/ivan-figueroa-morillo/badges,
+José Manuel,,Corral,1,/users/jmanuelcorral/badges,Microsoft
+Lorenzo,,Reina Delgado,5,/users/lorenzo-reina-delgado/badges,Accenture
+Rafael,,Molina Jimena,1,/users/rafael-molina-jimena/badges,Accenture
+Jorge,,González Benítez,3,/users/jorge-gonzalez-benitez/badges,
+Alberto,,Roselló Martín,3,/users/alberto-rosello-martin/badges,
+Alessandro,,Tejero,2,/users/alessandro-tejero.561baaa5/badges,
+Adrian,,Contreras,4,/users/adrian-contreras.18550597/badges,
+Isabel María,,Román Cordero,2,/users/isabel-maria-roman-cordero.0f68b1b2/badges,
+Daniel,,Rodriguez Muñoz,1,/users/daniel-rodriguez-munoz/badges,
+Ruben,,Bezos Santiago,1,/users/ruben-bezos-santiago/badges,
+Juan,,Gomariz,2,/users/juan-gomariz/badges,
+Adrián,,Zen,2,/users/adrian-zen/badges,
+Esteban Matías,,Bresba Nóbile,1,/users/esteban-matias-bresba-nobile/badges,
+Raul,,Tallero Monge,1,/users/raul-tallero-monge/badges,
+David,,Rodriguez Donoso,1,/users/drdonoso/badges,
+Nacho,,Borente Gonzalez,1,/users/nacho-borente-gonzalez/badges,Accenture
+Hannah,,Garcia,1,/users/hannah-garcia.a5f308bb/badges,
 Augusto Santiago,,Carrasco Toro,1,/users/augusto-santiago-carrasco-toro/badges,
 Luis,,Gomez Feria,1,/users/luis-gomez-feria/badges,
 Valentín Alejandro,,Palacios Mesa,1,/users/valentin-alejandro-palacios-mesa/badges,
@@ -400,7 +300,7 @@ Iraitz,,Montalban,1,/users/iraitz-montalban/badges,Falcondale
 Petr,,Stupka,1,/users/petr.stupka/badges,MSQ DX
 Ricardo,,Fernández,1,/users/ricardo-fernandez.6c4ca7c9/badges,
 Thales Rodrigo,,Andrade Delmondes Mariano,1,/users/thales-rodrigo-andrade-delmondes-mariano/badges,Kyndryl
-Hugo,,Alvarez,1,/users/hugo-alvarez.5fd167f8/badges,
+Hugo,,Alvarez,0,/users/hugo-alvarez.5fd167f8/badges,
 Ignacio,,Alonso Portillo,1,/users/ignacio-alonso-portillo/badges,Microsoft
 Marian Dumitru,,Danci,1,/users/dumitrux/badges,
 Antonio,,Guillen,1,/users/antonio.guillen/badges,Kyndryl
@@ -461,3 +361,103 @@ Cristian,,Alonso Contreras,1,/users/cristian-alonso-contreras/badges,
 Alba,,Arias,1,/users/alba-arias.ee685d72/badges,
 Francisco de Borja,Serna,de Grado,1,/users/borja-serna/badges,
 Juan María,,Ibáñez Expósito,1,/users/juan-maria-ibanez-exposito/badges,Accenture
+Alberto,,de Manuel,1,/users/alberto-de-manuel/badges,
+Mario,,Aguilera,1,/users/mario-aguilera.5288c784/badges,
+Jesus,,Redondo,1,/users/jesus-redondo.f172940f/badges,Dynatrace
+Alfonso,,Palomino Romero,1,/users/alfonso-palomino-romero.2e53f689/badges,
+Miguel,,Bayon,1,/users/miguelbayon/badges,Phoenix Contact
+Roberto,,Arocha,2,/users/roberto-arocha/badges,Microsoft
+Mario,,Rodríguez Hernández,5,/users/mario-rodriguez-hernandez/badges,Indra Group
+Jorge,,Quevedo Duran,3,/users/jorge-quevedo-duran/badges,
+Javier,,Orbe Díez,1,/users/orbe/badges,
+Luis,,Carrascal,5,/users/luis-carrascal/badges,SUSE
+David,Nevado,Martin,3,/users/david-nevado-martin-pmp-software-it-leader-cloud-mba/badges,Kyndryl
+Alejandro,,Lazaro Chueca,2,/users/alejandro-lazaro-chueca/badges,NTT DATA
+Alonso,,Viñé Barrancos,1,/users/alonso-vine-barrancos/badges,
+Víctor Manuel,,Cañada Ojeda,1,/users/victor-manuel-canada-ojeda/badges,
+Enrique,,Andrada,1,/users/enrique-andrada/badges,Avanade
+Agustín,,Ruiz Martín,1,/users/agustin-ruiz-martin/badges,
+Matthew,,Pickles,2,/users/matthew-pickles/badges,
+José,,Cano,1,/users/jose.canovarela/badges,Kyndryl
+Mauro,,Gómez Guillén,1,/users/mauro-gomez-guillen/badges,
+Borja,,Compés Mancisidor,1,/users/borja-compes-mancisidor/badges,
+Alfonso,,López del Castillo,1,/users/alfonso-lopez-del-castillo/badges,
+Raúl,,Martín Rigor,1,/users/raul-martin-rigor/badges,
+Edgar Jesús,,Huerta Meza,1,/users/edgar-jesus-huerta-meza/badges,
+Gabriel,Machado,Amorim,1,/users/gmamorim/badges,team.blue
+Rafael,,Galante Gutiérrez,1,/users/ragalgut/badges,Kyndryl
+Grzegorz,,Mazur,2,/users/grzegorz-mazur.d19fc0fc/badges,
+José antonio,,Carretero borreguero,1,/users/jose-antonio-carretero-borreguero/badges,
+Ángel,,Mac Donald Gainza,1,/users/angel-mac-donald-gainza/badges,
+Carlos,,Gimeno Ortiz,1,/users/carlos-gimeno-ortiz/badges,
+Pablo,,Souto,1,/users/pablo-souto/badges,
+Carlos,,Hernandez-Bueno,1,/users/carlos-hernandez-bueno/badges,
+Priscila,,Rodriguez,3,/users/priscila-rodriguez.4a5c315c/badges,
+Hugo Andrés,,Herrera de Miguel,1,/users/hugo-andres-herrera/badges,
+Jesús,,del Castillo López,1,/users/jesus-del-castillo-lopez/badges,
+Miguel,Angel,Sanchez Marti,3,/users/miguel-angel-sanchez-marti/badges,Lufthansa Technik
+Daniel,,Martinez Madrid,2,/users/daniel-martinez-madrid/badges,@Azertium IT
+Alberto Carlos,,Peinado Santana,1,/users/alberto-carlos-peinado-santana.0c89e931/badges,
+Yana,,Tolstobrova,1,/users/yana-tolstobrova/badges,
+Elisabeth,,Pola,3,/users/elisabeth-pola/badges,
+Nicolas,,Aragon,2,/users/nicolas-aragon/badges,
+Luis Daniel,,García,1,/users/luis-daniel-garcia.64348621/badges,
+Pablo,,Aviles Prieto,1,/users/pablo-aviles-prieto/badges,
+Diego,,Sesmero Fernández,1,/users/diego-sesmero-fernandez/badges,
+Cristina,,Pérez Rodríguez,1,/users/cristina-perez-rodriguez/badges,
+Enric,,Perpinyà,1,/users/enric-perpinya/badges,
+Romina,,Mendez,1,/users/romina-mendez/badges,
+Brian,,Suárez Santiago,4,/users/briansuarezsantiago/badges,NTT DATA
+Guoqing,,Cao,1,/users/guoqing-cao.28bb4413/badges,
+Jose,,Martinez Pradas,1,/users/jose-martinez-pradas/badges,
+Mathias,,Ferreira Ferreira,1,/users/mathias-ferreira-ferreira/badges,
+Papa Issa,,DIAKHATE,4,/users/paissad/badges,
+Margarita,,Sanz,5,/users/margarita-sanz.8b60fc23/badges,
+Samuel,,Osorio Calvo,1,/users/samuel-osorio-calvo/badges,
+Francisco,,Calvo Vicente,6,/users/fcalvov/badges,
+Francisco,,Cosin,3,/users/fcosin/badges,UST
+Juanjo,,Carmena Ayuso,1,/users/juanjo-carmena-ayuso/badges,
+David,,Oliva Paredes,2,/users/david-oliva-paredes/badges,
+Diego,Miguel,Arostegui Galarza,1,/users/diego-miguel-arostegui/badges,GitHub
+Cristina,,Infante,3,/users/cristina-infante.8c26db5e/badges,
+Sergio,,Fernández Rubio,2,/users/sergio-fernandez-rubio.a04ec1b9/badges,Xebia
+Melissa,,Urena,1,/users/melissa-urena.bb451eba/badges,
+Bohdan,,Cherniak,1,/users/bohdan-cherniak/badges,
+Miguel Angel,,Garcia Gomez,1,/users/miguel-angel-garcia-gomez.aa1e6d42/badges,
+Manuel,,Sánchez,1,/users/manuelsanchezrodriguez/badges,everis
+Raul,,Jimenez Martinez,1,/users/raul-jimenez-martinez/badges,
+ivan,,ortega,1,/users/ivan-ortega.2201ae1d/badges,
+Carlota,,Monedero,1,/users/carlota-monedero/badges,
+Maximilian Jose,,Dehling Montilla,1,/users/maximilian-jose-dehling-montilla/badges,
+Luisa,,Salazar,1,/users/luisa-salazar.57595f34/badges,
+Toni,,Martínez,1,/users/toni-martinez.f4ae83b0/badges,
+Marta,,Vilaseca,1,/users/marta-vilaseca/badges,
+Masa,,Gulyás,1,/users/masa-gulyas/badges,
+Sergio,,Lillo Martínez,1,/users/sergio-lillo-martinez/badges,
+Abdelrahman,,Farag,1,/users/abdelrahman-farag.1a9c0e54/badges,Sopra Steria
+Ana Belén,,Delgado Parra,1,/users/ana-belen-delgado-parra/badges,
+Jose Antonio,,Paredes Leon,1,/users/jose-antonio-paredes-leon/badges,
+Alfonso,,Atienza,1,/users/alfonso-atienza.2421d395/badges,
+Angel,,Roman Osma,1,/users/angel-roman-osma/badges,TestOut
+José Antonio,,Toledo Arenas,1,/users/jose-antonio-toledo-arenas/badges,
+Fernando,,Bercedo,2,/users/fernando-bercedo/badges,
+Vanesa,,Vázquez,1,/users/vanesa-vazquez.0d19c1c3/badges,
+Bruno,Veiga,Martinez,1,/users/brunovmar/badges,
+CARLOS,,QUINTERO VIVAR,5,/users/carlos-quintero-vivar/badges,
+Marcos,Vinicius,Costa Bella,1,/users/marcos-vinicius-costa-bella.c9f17213/badges,Softtek
+Pablo,,Casado Rodríguez,1,/users/pablo-casado-rodriguez/badges,
+David,,Mazarro,1,/users/david-mazarro/badges,
+José,,Martín-Forero Royo,3,/users/jose-martin-forero-royo/badges,
+DAVID,,CASTEJON FERRER,1,/users/david-castejon-ferrer/badges,
+Dorota,,Weglinska,1,/users/dorota-weglinska/badges,Insight
+Kaiscer,,Vasquez,1,/users/kaiscer-vasquez/badges,
+Alfredo,,Martin,1,/users/alfredo-martin/badges,
+Gloria,,Casals Zapardiel,1,/users/gloria-casals-zapardiel/badges,
+LUIS EMILIO,,LOPEZ LOPEZ,1,/users/luis-emilio-lopez-lopez/badges,Insight
+Marçal,,Gómez Lavall,1,/users/marcal-gomez-lavall/badges,
+Jonathan,,Loewenstern,1,/users/jonathan-loewenstern/badges,
+nil,,ventosa,1,/users/nil-ventosa/badges,
+Gabi,,Coronado,1,/users/gabi-coronado/badges,
+Alvaro,,Barcena,3,/users/alvaro-barcena/badges,
+Joaquín,,Reyes Lettieri,1,/users/joaquin-reyes-lettieri/badges,
+Diego,,Arroyo,3,/users/diego-arroyo.2e26f31f/badges,
